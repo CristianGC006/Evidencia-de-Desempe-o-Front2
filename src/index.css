@@ -1,5 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 *{
   padding: 0;
-  margin: 0;
+  margin: 10;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100vh;
+}
+.header{
+  display: flex;
+  width: 100%;
+  height:30%;
+}
+.main{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.element-one{
+  background-color: blue;
+  border: 3px solid rgb(0, 0, 0);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.element-two{
+  background-color: rgba(183, 104, 104, 0.971);
+  border: 3px solid rgb(0, 0, 0);
+  width: 60%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 17% 0%;
+}
+.element-three{
+  background-color: aquamarine;
+  border:3px solid black;
+  width: 600px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+  margin: 10px;
+}
+.footer-article{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+}
+.element-four{
+  background-color: rgb(26, 211, 214);
+  border: 3px solid black;
+  width: 100%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
 }
